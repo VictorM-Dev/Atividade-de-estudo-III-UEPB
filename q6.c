@@ -17,10 +17,9 @@ int main(void){
 
             printf("Insira a quantidade do pedido: ");
             scanf("%d", &quantidade);
+
+            soma += preco*quantidade;
         }
-
-        soma += preco*quantidade;
-
         //Há formas melhores de fazer a parada do while
     }while(pedido != 0);
 
